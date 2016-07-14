@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "Lucida Grande", sans-serif;
+}
+
+header {
+    background: #8C7CDC;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    list-style: none;
+}
+
+.funktionen {
+    background: #C9C0F5;
+}
+
+.funktionen_h, .funktionen_teaser_h {
+    background: #8F1827;
+    color: #fff;
+}
+
+.funktionen_h {
+    width: 318px;
+    height: 68px; 
+    background: #8F1827;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 12px;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.header_logo {
+    display: flex;
+}
+
+.logo_picture {
+    height: 105px;
+}
+
+.welcome_logo {
+    height: 370px;
+}
+
+.appStore_button {
+    width: 200px;
+    height: 55px;
+}
+
+.logo_text {
+    color: white;
+    font-size: 36px;
+}
+
+.navigation_button {
+    display: inline-block;
+    background: #fff;
+    width: 156px;
+    height: 56px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 20px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.navigation_button a {
+    text-decoration: none;
+    color: #8F1827;
+    vertical-align: middle;
+}
+
+.funktionen_teaser {
+    width: 300px;
+}
+.funktionen_teaser_h {
+    width: 156px;
+    height: 135px;
+    background: #8F1827;
+    color: #fff;
+    margin: 75px auto;
+    border-radius: 12px; 
+    font-size: 28px;
+    text-align: center;
+    padding-top: 10%;  
+}
+
+
+.welcome_text {
+    color: #fff;
+    width: 822px;
+    height: 224px;
+    font-size: 48px;
+}
+
+.welcome {
+    height: 450px;
+    background-image: url("../images/backgroundphoto.jpeg");
+    background-size: 100%;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.funktionen_teaser_wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 40px 130px 0;
+}
+
+.funktionen_text {
+    font-size: 20px;
+    color: #8F1827;
+    text-align: center;
+}
+
+.funktionen_teaser_text {
+    color: black;
+    font-size: 20px
+}
+
+.unterstuetzer_wrapper {
+    background: #8C7CDC;
+}
+
+.unterer_footer_teil {
+    background: #8F1827;
+}
+
+.unterstuetzer {
+    background: #8C7CDC;
+    justify-content: space-between;
+    height: 145px;
+    display: flex;
+}
+
+.unterstuetzer_p {
+    color: black;
+    font-size: 20px;
+}
+
+.kontakt_text {
+    color: black;
+    font-size: 18px;
+    width: 25%;
+}
+
+.impressum {
+    color: black;
+    font-size: 20px;
+}
+
+/* Styling for team page */
+
+.team {
+    display: flex;
+    flex-flow: column;
+}
+
+.team_h_wrapper {
+    width: 100%;
+}
+
+.team_member {
+    margin: 4% 10%;
+    text-align: center;
+}
+
+.team_row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team_img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+.team_img-merks {
+    background-image: url('../images/team/Team_member_merks.jpg');
+    background-position: -76px 0;
+}
+
+.team_img-amar {
+    background-image: url('../images/team/Team_member_amar.jpg');
+    background-position: 6px 0;
+    background-size: 150px;
+}
+.team_img-amir {
+    background-image: url('../images/team/Team_member_amir.jpg');
+    background-position: -78px -10px;
+}
+
+.team_img-daniel {
+    background-image: url('../images/team/Team_member_daniel.jpg');
+    background-position: 0 -30px;
+    background-size: 150px;
+}
+
+.team_img-emilia {
+    background-image: url('../images/team/Team_member_emilia.jpg');
+    background-position: 1px 0;
+}
+
+.team_img-erik {
+    background-image: url('../images/team/Team_member_erik.jpg');
+    background-position: -14px -80px;
+    background-size: 179px;
+}
+
+.team_img-janine {
+    background-image: url('../images/team/Team_member_janine.jpg');
+    background-position: -60px -2px;
+}
+
+.team_img-joana {
+    background-image: url('../images/team/Team_member_joana.jpg');
+    background-position: 1px -1px;
+    background-size: 150px;
+}
+
+.team_img-karina {
+    background-image: url('../images/team/Team_member_karina.jpg');
+    background-position: 1px -3px;
+    background-size: 150px;
+}
+
+.team_img-mirko {
+    background-image: url('../images/team/Team_member_mirko.jpg');
+    background-position: 3px -19px;
+    background-size: 146px;
+}
+
+.team_img-vanessa {
+    background-image: url('../images/team/Team_member_vanessa.jpg');
+    background-position: -65px -62px;
+    background-size: 280px; 
+
+}
